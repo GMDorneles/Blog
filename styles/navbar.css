@@ -11,7 +11,6 @@
     flex-direction: row;
     justify-content: space-between;
 }
-
 .select-hover {
     background-color: transparent;
     border: none;
@@ -26,12 +25,15 @@
     width: 0;
     height: 2px;
     background-color: #3498db;
-    transition: width 0.3s ease; /* Adiciona uma transição suave na largura */
+    transition: width 0.3s ease;
+    /* Adiciona uma transição suave na largura */
 }
 
 .select-hover:hover::before {
-    width: 100%; /* Aumenta a largura para 100% no hover */
+    width: 100%;
+    /* Aumenta a largura para 100% no hover */
 }
+
 .list-hover {}
 
 .item-name {}

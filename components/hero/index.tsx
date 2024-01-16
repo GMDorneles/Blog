@@ -9,16 +9,32 @@ function Hero() {
                 </div>
             </div>
             <div className="secundary-posts">
-                <div className="post hover-size">
-                    <div className="post-intro">
-                          {/* image */}
-                        texto1
+                <div className="colum-posts">
+                    <div className="post hover-size">
+                        <div className="post-intro">
+                            {/* image */}
+                            texto1
+                        </div>
+                    </div>
+                    <div className="post hover-size">
+                        {/* image */}
+                        <div className="post-intro">
+                            texto2
+                        </div>
                     </div>
                 </div>
-                <div className="post hover-size">
-                      {/* image */}
-                    <div className="post-intro">
-                        texto2
+                <div className="colum-posts">
+                    <div className="post hover-size">
+                        <div className="post-intro">
+                            {/* image */}
+                            texto1
+                        </div>
+                    </div>
+                    <div className="post hover-size">
+                        {/* image */}
+                        <div className="post-intro">
+                            texto2
+                        </div>
                     </div>
                 </div>
             </div>

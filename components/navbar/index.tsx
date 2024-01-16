@@ -12,6 +12,9 @@ function NavBar() {
                 </button>
 
             </div>
+            <div>
+                
+            </div>
         </div>
     )
 }
