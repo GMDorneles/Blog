@@ -1,19 +1,29 @@
-import  "../../styles/navbar.css"
+import "../../styles/navbar.css"
 function NavBar() {
     return (
         <div className="navbar-container">
-            <div className="item-menu">
+            <div className="itens-menu">
                 <button className="logo">logo  aqui</button>
-                <button className="select-hover">
-                    <p className="item-name">HOME</p>
-                </button>
-                <button className="select-hover list-hover">
-                    <p className="item-name">CATEGORIAS</p>
-                </button>
 
             </div>
-            <div>
-                
+            <div className="itens-rigth">
+                <div className="item-menu">
+                    <button className="select-hover">
+                        <p className="item-name">CONTACT</p>
+                    </button>
+                </div>
+                <div className="item-menu">
+                    <button className="select-hover">
+                        SETTINGS
+                    </button>
+                </div>
+                <div className="item-menu">
+                    <button className="select-hover">
+                        <p>
+                            LOGIN
+                        </p>
+                    </button>
+                </div>
             </div>
         </div>
     )
