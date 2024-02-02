@@ -1,0 +1,21 @@
+ul,
+ol {
+    list-style: none;
+}
+
+.slide-categories {
+    margin-top: 4vh;
+
+
+}
+
+.slide-box {
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-category {
+    padding: 20px;
+    text-align: center;
+}
